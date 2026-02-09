@@ -1,5 +1,4 @@
-# Assignement_1
- Overview
+🚀 Overview
 
 This project analyzes system metrics — CPU, Memory, Network In, and Network Out — to detect abnormal system behavior without ground-truth labels.
 
@@ -11,8 +10,8 @@ Model-Based Detection: Isolation Forest
 
 The goal is to identify spikes, drops, contextual anomalies, and multivariate inconsistencies in system performance.
 
- Methods Used
-1️ .Statistical Detection
+🛠️ Methods Used
+1️⃣ Statistical Detection
 
 Rolling window baseline
 
@@ -20,7 +19,7 @@ Rolling window baseline
 
 Time-aware deviation detection
 
-2️. Model-Based Detection
+2️⃣ Model-Based Detection
 
 Isolation Forest
 
@@ -28,7 +27,7 @@ Multivariate anomaly detection
 
 Distribution-agnostic modeling
 
- Key Insights
+📈 Key Insights
 
 CPU anomalies are spike-driven with narrow variance.
 
@@ -38,7 +37,7 @@ Network metrics are highly volatile; only extreme bursts are anomalous.
 
 Both methods detect different anomaly types → complementary coverage.
 
- Evaluation Strategy
+📊 Evaluation Strategy
 
 Since no labels exist, anomalies were validated using:
 
